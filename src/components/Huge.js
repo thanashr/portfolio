@@ -7,7 +7,7 @@ function Huge(props) {
 	return(
 		<Jumbotron className=" bg-transparent jumbotron-fluid p-0">
 			<Container fluid= {true}>
-				<Row className = "justify p-5">
+				<Row className = "justify ">
 					<Col md = {8} sm={12}>
 						{props.title && <h1 className = "display-1 font-weight-bolder">{props.title}</h1>}
 						{props.subTitle && <h3 className = "display-4 font-weight-light">{props.subTitle}</h3>}

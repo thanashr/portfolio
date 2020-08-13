@@ -41,11 +41,11 @@ function Sidebar({ items }) {
             </a> </li>
 		
 			</ul>
-			<ul className=" mt-3 list-group menus monospace text-warning">
+			<ul className=" mt-3 list-group menus monospace">
                   <li><a href="#home" className="menus a" ><span className="glyphicon glyphicon-envelope"></span>Home</a></li>
                   <li><a href="#education" className="menus a">Education</a></li>
-				  <li ><a href="#projects"className="menus a" >Projects</a></li>
 				  <li ><a href="#experience"className="menus a" >Experience</a></li>
+				  <li ><a href="#projects"className="menus a" >Projects</a></li>				  
 				  <li ><a href="#skills" className="menus a" >Skills</a></li>
 				  <li ><a href="#social" className="menus a">Social</a></li>
                 </ul>

@@ -11,13 +11,26 @@ function HugeHome(props) {
 					<Col md = {10} sm={12}>
 <h1 className = " p-lg-5 mt-5  intro  font-weight-LIGHT"><small>I'm </small>Thana Shree Jeevanandam <small>and I think and work outside the </small>Brackets!</h1>
 
-						 <h3 className="p-lg-5 lead font-weight-light">I'm a Computer Science graduate student and a budding woman technology enthusiast.</h3>
+						 <h3 className=" lead font-weight-light"> I am a budding tech enthusiast currently pursuing my masters in Computer 
+ Science at the University at Buffalo. I have had experiences in differently sized corporate environments through my internships.</h3>
+<h3 className=" lead font-weight-light"> Things I have been excited about lately are React,
+ Android development and leetcoding!  </h3>
+ <h3 className=" lead font-weight-light">  "If you want to leave your footprints on the sands of time, do not drag your feet - by APJ Abdul Kalam" is the string 
+which motivates me to triumph.  </h3>
+
 					</Col>
 				</Row>
 			</Container>
 		</Jumbotron>
-	);
-	
-}
+	);}
 
 export default HugeHome;
+
+ 
+
+
+
+
+
+
+

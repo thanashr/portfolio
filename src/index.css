@@ -21,13 +21,83 @@ code {
 }
 
 .homelayout {
-	height: 600px;
+	height: 800px;
 background-color: white;		
 	margin-left: 17.5em;
 	
 }
+.skillslayout {
+	height: 1300px;
+background-color: white;		
+	margin-left: 17.5em;
+	
+}
+.exp_list {
+	
+  list-style-type: none;
+  line-height: 90%;
+  font-size: 15px;
+font-weight: 350;
+letter-spacing: 0.5px;
+}
+.a_edu {
+  color: #403F45;
+}
+.amr_edu {
+  color: #403F45;
+}
+.acc_link {
+  color:  #403F45;
+}
+.uandi_link{
+	color:  #403F45;
+}
 .a {
   color: #42b983;
+}
+.amr_edu:hover, .a_edu:focus, .a_edu:active {
+  color: #FFA500; 
+}
+.acc_link:hover, .acc_link:focus, .acc_link:active {
+  color: #90EE90; 
+}
+.uandi_link:hover, .uandi_link:focus, .uandi_link:active {
+  color: #DC143C; 
+}
+.edu_col{
+	 line-height: 60%;
+}
+.exp_col{
+	line-height: 60%;
+	
+}
+.exp_list{
+	font-size: 17px;
+	margin:0 0 10px 0;
+}
+.skill_list{
+	font-size: 23px;
+	margin:0 0 10px 0;
+}
+.deliv{
+	width:700px;
+}
+.sociallink{
+	line-height: 80%;
+	width:500px;
+}
+.edu{
+	font-weight: 500;
+    
+	font-size: 30px;
+}
+.edu_sub{
+	font-size: 23px;
+}
+.social_sub{
+	font-size: 23px;
+	width : 700px;
+	line-height: 90%;
 }
 
 .a:hover, .a:focus, .a:active {
