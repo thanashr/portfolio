@@ -1,6 +1,5 @@
 import React from 'react';
 import Huge from '../components/Huge';
-import Content from '../components/Content';
 import Container from 'react-bootstrap/Container'; 
 import Row from 'react-bootstrap/Row'; 
 import Col from 'react-bootstrap/Col';

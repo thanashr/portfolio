@@ -1,9 +1,5 @@
 import React from 'react'
-import List from '@material-ui/core/List'
-import ListItem from '@material-ui/core/ListItem'
-import ListItemText from '@material-ui/core/ListItemText'
-import { FaEnvelope , FaHome, FaLinkedin, FaGithub , FaPhone } from "react-icons/fa";
-import { MdMailOutline } from "react-icons/md";
+import { FaEnvelope ,  FaLinkedin, FaGithub  } from "react-icons/fa";
 
 
 function Sidebar({ items }) {
