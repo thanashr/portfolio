@@ -4,7 +4,7 @@ import { FaEnvelope ,  FaLinkedin, FaGithub  } from "react-icons/fa";
 
 function Sidebar({ items }) {
   return (
-    <div className="sidebar text-center  ">
+    <div className="sidebar hidden-xs text-center  ">
 	     <figure>
               <img
                 src={require("../images/profile1.png")}
