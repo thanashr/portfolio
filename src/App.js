@@ -58,20 +58,15 @@ class App extends React.Component {
 	}
   render() {
 	  return(
-	  <React.Fragment>
-		  
-		<Sidebar items={items}/>
-		  
-		
-		<HomeSection title={this.state.home.title} subTitle={this.state.home.subTitle} text = {this.state.home.text} />
-		<EducationSection subTitle={this.state.education.title}  />
-		<ExperienceSection subTitle={this.state.experience.title}/>
-	    <ProjectsSection subTitle={this.state.projects.title}/>		
-		<SkillsSection subTitle={this.state.skills.title}/>
-		<SocialSection subTitle={this.state.social.title}/>
-		
-	
-		<Footer/>
+	    <React.Fragment> 
+			<Sidebar items={items}/> 
+			<HomeSection title={this.state.home.title} subTitle={this.state.home.subTitle} text = {this.state.home.text} />
+			<EducationSection subTitle={this.state.education.title}  />
+			<ExperienceSection subTitle={this.state.experience.title}/>
+			<ProjectsSection subTitle={this.state.projects.title}/>		
+			<SkillsSection subTitle={this.state.skills.title}/>
+			<SocialSection subTitle={this.state.social.title}/>	
+			<Footer/>
 		</React.Fragment>
 		  	
   );

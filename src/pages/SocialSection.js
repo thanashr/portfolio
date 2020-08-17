@@ -6,13 +6,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 function SocialSection(props) {
 	return(
-		<div id="social" className="homelayout">
+		<div id="social" className="sociallayout">
 			<Huge  subTitle={props.subTitle} />
-			<p className = "social_sub ml-5 intro font-weight-LIGHT"><small>Alone we can do little,
+			<p className = "social_sub ml-5 mt-5 intro font-weight-LIGHT"><small>Alone we can do little,
 			together we can do so much! I strongly believe that every child deserves a holistic education
 			and every individual should live at peace. I love volunteering to impact lives positively.</small></p> 
-			<Container fluid= {true}>
-							
+			<Container fluid= {true}>							
 				<Row className = "text-justify ml-2">
 					<Col md = {7} sm={7} className = "edu_col">
 							<a href="https://www.uandi.org.in/" className="uandi_link" >
@@ -22,7 +21,6 @@ function SocialSection(props) {
 							backgrounds with courses in English, Math, Science and engagements  through science camps, field trips, art 
 							workshops and career building workshops, in order to build their learning and 
 							confidence. The goal is to give every student the opportunity to shine in the classroom - and beyond.</small></p>
-						
 					</Col>
 					<Col md = {3} sm={3}>
 						<a href="https://www.uandi.org.in/" className="uandi_link" >
@@ -58,10 +56,6 @@ function SocialSection(props) {
 						</a>
 					</Col>
 				</Row>
-			
-						
-			
-				
 			</Container>
 		</div>
 	

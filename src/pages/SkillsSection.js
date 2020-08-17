@@ -8,11 +8,10 @@ function SkillsSection(props) {
 	return(
 		<div id="skills" className="skillslayout">
 			<Huge  subTitle={props.subTitle} />
-			<Container fluid= {true}>
-							
+			<Container fluid= {true}>							
 				<Row className = "text-justify ml-2">
 					<Col md = {7} sm={7} className = "edu_col">
-							<p className = "edu_sub ml-4 intro font-weight-LIGHT"><small><u>Programming languages</u></small></p>
+							<p className = "edu_sub ml-4 mt-4 intro font-weight-LIGHT"><small><u>Programming languages</u></small></p>
 								<ul className="ml-2 exp_list  ">
 									<li className="skill_list ml-5 mt-0  font-weight-LIGHT"><small>Python</small> </li>
 									<li className="skill_list ml-5 mt-0  font-weight-LIGHT"><small>Java</small> </li>
@@ -59,11 +58,8 @@ function SkillsSection(props) {
 								<ul className="ml-2 exp_list  ">
 									<li className="skill_list ml-5 mt-0  font-weight-LIGHT"><small>Linux</small> </li>
 									<li className="skill_list ml-5 mt-0  font-weight-LIGHT"><small>Windows</small> </li>																		
-								</ul>
-							
-							 
-					</Col>
-				
+								</ul>			
+					</Col>				
 				</Row>
 			</Container>
 		</div>

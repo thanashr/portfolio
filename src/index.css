@@ -21,24 +21,40 @@ code {
 }
 
 .homelayout {
-	height: 800px;
-background-color: white;		
+	height: 900px;
+	background-color: white;		
+	margin-left: 17.5em;	
+}
+.sociallayout {
+	height: 900px;
+	background-color: white;		
+	margin-left: 17.5em;	
+}
+.projlayout {
+	height: 3000px;
+	background-color: white;		
+	margin-left: 17.5em;
+	
+}
+.explayout {
+	height: 900px;
+	background-color: white;		
 	margin-left: 17.5em;
 	
 }
 .skillslayout {
-	height: 1300px;
-background-color: white;		
+	height: 1400px;
+	background-color: white;		
 	margin-left: 17.5em;
 	
 }
 .exp_list {
 	
-  list-style-type: none;
-  line-height: 90%;
-  font-size: 15px;
-font-weight: 350;
-letter-spacing: 0.5px;
+	list-style-type: none;
+	line-height: 90%;
+	font-size: 15px;
+	font-weight: 350;
+	letter-spacing: 0.5px;
 }
 .a_edu {
   color: #403F45;
@@ -48,6 +64,18 @@ letter-spacing: 0.5px;
 }
 .acc_link {
   color:  #403F45;
+}
+.proj_link {
+  color:  #403F45;
+}
+.projlink_link {
+  color:  #3ca67b;
+}
+.proj_link:hover, .proj_link:focus, .proj_link:active {
+  color: #403F45; 
+}
+.projlink_link:hover, .projlink_link:focus, .projlink_link:active {
+  color: #90EE90; 
 }
 .uandi_link{
 	color:  #403F45;
@@ -66,6 +94,10 @@ letter-spacing: 0.5px;
 }
 .edu_col{
 	 line-height: 60%;
+}
+.proj_col{
+	
+	line-height: 60%;
 }
 .exp_col{
 	line-height: 60%;
@@ -91,8 +123,18 @@ letter-spacing: 0.5px;
     
 	font-size: 30px;
 }
+.proj{
+	font-weight: 500;    
+	font-size: 30px;
+	width:800px;
+	line-height: 90%;
+}
 .edu_sub{
 	font-size: 23px;
+}
+.proj_sub{
+	font-size: 23px;
+	width : 800px;
 }
 .social_sub{
 	font-size: 23px;
