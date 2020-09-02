@@ -8,7 +8,7 @@ function HugeHome(props) {
 		<Jumbotron className=" bg-transparent jumbotron-fluid p-0">
 			<Container fluid= {true}>
 				<Row className = "justify-content-center ">
-					<Col md = {10} sm={12}>
+					<Col xs = {12} md = {12} sm={12}>
 <h1 className = " p-lg-5 mt-5  intro  font-weight-LIGHT"><small>I'm </small>Thana Shree Jeevanandam <small>and I think and work outside the </small>Brackets!</h1>
 
 						 <h3 className=" lead font-weight-light"> I am a budding tech enthusiast currently pursuing my masters in Computer 

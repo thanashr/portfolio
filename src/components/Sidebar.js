@@ -4,10 +4,10 @@ import { FaEnvelope ,  FaLinkedin, FaGithub  } from "react-icons/fa";
 
 function Sidebar({ items }) {
   return (
-    <div className="sidebar hidden-xs text-center  ">
+    <div className="sidebar hidden-lg text-center">
 	     <figure>
               <img
-                src={require("../images/profile1.png")}
+                src={require("../images/profile.JPG")}
                 style={{ width: 160, height: 160, borderRadius: 200/ 2 }}
 				fluid
               />             

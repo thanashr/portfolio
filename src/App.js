@@ -55,7 +55,7 @@ class App extends React.Component {
   render() {
 	  return(
 	    <React.Fragment> 
-			<Sidebar items={items}/> 
+			<Sidebar className="hidden-lg" items={items}/> 
 			<HomeSection title={this.state.home.title} subTitle={this.state.home.subTitle} text = {this.state.home.text} />
 			<EducationSection subTitle={this.state.education.title}  />
 			<ExperienceSection subTitle={this.state.experience.title}/>
