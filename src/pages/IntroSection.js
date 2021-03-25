@@ -1,15 +1,12 @@
 import React from 'react';
-import Huge from '../components/Huge';
-import Container from 'react-bootstrap/Container'; 
-import Row from 'react-bootstrap/Row'; 
-import Col from 'react-bootstrap/Col';
+
 import { FaEnvelope ,  FaLinkedin, FaGithub  } from "react-icons/fa";
 
 function IntroSection(props) {
 	return(
 	    <div id="introduction" className="introlayout  text-center">
 	     <figure className="sideFig" >
-              <img
+              <img alt="Mobile Profile"
                 src={require("../images/profilenobg.png")}
                 style={{ width: 160, height: 160, borderRadius: 200/ 2 }}
 				fluid

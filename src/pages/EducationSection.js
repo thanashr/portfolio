@@ -10,10 +10,10 @@ function EducationSection(props) {
 			<Container fluid= {true}>
 			<p className = "edu_sub ml-4 mt-4 intro font-weight-LIGHT"><small><u>2019 - 2021</u></small></p>
 				<Row className = "justify ">
-					<Col md = {2} sm={6}>
+					<Col md = {2} sm={2}>
 						<a href="http://www.buffalo.edu/" className="menus a" >
 						   <figure className="ml-3 mt-4">
-								  <img
+								  <img alt="UB"
 									src={require("../images/ub.png")}
 									style={{ width: 140, height: 120, borderRadius: 150/ 2 }}
 									fluid
@@ -31,10 +31,10 @@ function EducationSection(props) {
 				</Row>
 				<p className = "edu_sub ml-4 mt-5 intro font-weight-LIGHT"><small><u>2015 - 2019</u></small></p>
 				<Row className = "justify">
-					<Col md = {2} sm={6}>
+					<Col md = {2} sm={2}>
 						<a href="https://www.amrita.edu/" className="menus a" >
 							<figure className="ml-3 mt-4">
-								  <img
+								  <img alt="Amrita"
 									src={require("../images/amrita.png")}
 									style={{ width: 140, height: 140, borderRadius: 160/ 2 }}
 									fluid

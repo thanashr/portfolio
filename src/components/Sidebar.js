@@ -6,8 +6,8 @@ function Sidebar({ items }) {
   return (
     <div className="sidebar  text-center">
 	     <figure className="mt-4 sideFig" >
-              <img
-                src={require("../images/profile.jpg")}
+              <img alt="Profile"
+                src={require("../images/profile.JPG")}
                 style={{ width: 180, height: 180, borderRadius: 200/ 2 }}
 				fluid
               />             
@@ -15,7 +15,7 @@ function Sidebar({ items }) {
 			<ul className=" mt-4 list-group introbar  ">
                   <li>THANA SHREE JEEVANANDAM</li>
 			</ul>	
-	        <ul className="mt-4 list-group">
+	        <ul className=" list-group">
 				<li> <a className="mail introbar "
 						  href="mailto:thanashreej@gmail.com"
 						  target="blank"
@@ -36,7 +36,7 @@ function Sidebar({ items }) {
 				</li>
 		
 			</ul>
-			<ul className=" mt-4 subs mt-3 list-group introbar monospace">
+			<ul className="  subs mt-3 list-group introbar monospace">
                   <li><a href="#home" className="subs introbar" ><span className="glyphicon glyphicon-envelope"></span>Home</a></li>
                   <li><a href="#education" className=" subs introbar">Education</a></li>
 				  <li ><a href="#experience"className="subs introbar" >Experience</a></li>
@@ -44,7 +44,7 @@ function Sidebar({ items }) {
 				  <li ><a href="#skills" className="subs introbar" >Skills</a></li>
 				  <li ><a href="#social" className="subs introbar">Social</a></li>
             </ul>
-			<ul className="list-group mt-4 ">
+			<ul className="list-group mt-3 ">
 				<li>    <a className="socialIcons  introbar "
 						  href="https://www.linkedin.com/in/thanashree/"
 						  target="_blank"
