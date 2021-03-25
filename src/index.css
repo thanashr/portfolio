@@ -9,45 +9,122 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace;	
 }
 
 .t-card {
-	margin: 20px;
+	margin: 20px;	
 }
 
-.intro {
-	font-family: Lucida Sans;
+@media screen and (max-width: 400px) {
+		  
+	 .mainlayout{
+		min-height: xxx; 
+		overflow: hidden;
+		width: 100%;	
+		color : black;
+		text-align: center;  
+		padding-top : 70px;
+		
+	  }  
+	
+	.introlayout{
+		min-height: xxx; 
+		overflow: hidden;		
+		width: 100%;
+		background-image: url("images/pic4.jpeg");
+		 background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+		border: 0px solid rgba(0, 0, 0, 0.1);	
+		text-align: center;	
+		top: 0; left: 0; right: 0; bottom: 0;
+		padding-bottom: 20px;
+   }
+
+
+.explayout small{
+line-height: 120%;
+}
+.exp_img_col {
+	display : none;
+	
+}
+.exp_list{
+	list-style-type: none;
+	line-height: 90%;
+	font-size: 15px;
+	font-weight: 350;
+	letter-spacing: 0.5px;
+	 text-align: justify , left;
 }
 
-.homelayout {
-	height: 900px;
+.deliv{
+	display : none;	
+
+}
+
+.edu_col{
+	 line-height: 130%;
+	
+}
+.edu{
+line-height: 130%;
+}
+.edu_sub{
+line-height: 80%;
+}
+
+
+
+.proj{
+	font-weight: 500;
+    
+	font-size: 30px;
+line-height: 130%;
+}
+.proj_sub{
+line-height: 80%;
+font-size: 23px;
+}
+.sociallink{
+	line-height: 80%;
+	max-width:200px;
+}
+.uandi_link{
+	color:  #403F45;
+	text-align: center;
+}
+.nss_link {
+  color: #403F45;
+  text-align: center;
+}
+.proj_col{
+	
+	line-height: 60%;
+}
+.exp_col{
+	line-height: 60%;
+	
+}
+}
+@media screen and (min-width: 400px){
+.mainlayout {
+	min-height: xxx; 
+	overflow: hidden;
 	background-color: white;		
 	margin-left: 17.5em;	
+	padding-top : 90px;
 }
-.sociallayout {
-	height: 900px;
-	background-color: white;		
-	margin-left: 17.5em;	
+
+.introlayout{
+	display:none;
 }
-.projlayout {
-	height: 3000px;
-	background-color: white;		
-	margin-left: 17.5em;
-	
+
+.mobile_deliv {
+	display : none;
 }
-.explayout {
-	height: 900px;
-	background-color: white;		
-	margin-left: 17.5em;
-	
-}
-.skillslayout {
-	height: 1400px;
-	background-color: white;		
-	margin-left: 17.5em;
-	
-}
+ }
 .exp_list {
 	
 	list-style-type: none;
@@ -79,6 +156,9 @@ code {
 }
 .uandi_link{
 	color:  #403F45;
+}
+.nss_link {
+  color: #403F45;
 }
 .a {
   color: #42b983;

@@ -3,6 +3,7 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer'; 
 import HomeSection from './pages/HomeSection' ;
+import IntroSection from './pages/IntroSection.js' ;
 import EducationSection from './pages/EducationSection.js' ;
 import ProjectsSection from './pages/ProjectsSection' ;
 import ExperienceSection from './pages/ExperienceSection' ;
@@ -24,8 +25,7 @@ class App extends React.Component {
 		this.state = {
 			title: 'Thana Shree',
 			headerLinks:[
-			{ title : 'Home ' , path: '/'},
-			
+			{ title : 'Home ' , path: '/'},			
 			{ title : 'Education' , path: '/education'},
 			{ title : 'Experience' , path: '/experience'},
 			{ title : 'Projects' , path: '/projects'}
@@ -34,6 +34,9 @@ class App extends React.Component {
 				title: ' Thana Shree Jeevanandam',
 				subTitle : 'Projects that make a difference',
 				text: 'checkout my projs'
+			},
+				intro : {
+				title: '',
 			},
 			education : {
 				title: 'Education',
@@ -56,6 +59,7 @@ class App extends React.Component {
 	  return(
 	    <React.Fragment> 
 			<Sidebar className="hidden-lg" items={items}/> 
+			<IntroSection subTitle={this.state.intro.title}  />
 			<HomeSection title={this.state.home.title} subTitle={this.state.home.subTitle} text = {this.state.home.text} />
 			<EducationSection subTitle={this.state.education.title}  />
 			<ExperienceSection subTitle={this.state.experience.title}/>

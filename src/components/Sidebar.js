@@ -4,19 +4,19 @@ import { FaEnvelope ,  FaLinkedin, FaGithub  } from "react-icons/fa";
 
 function Sidebar({ items }) {
   return (
-    <div className="sidebar hidden-lg text-center">
-	     <figure>
+    <div className="sidebar  text-center">
+	     <figure className="mt-4 sideFig" >
               <img
-                src={require("../images/profile.JPG")}
-                style={{ width: 160, height: 160, borderRadius: 200/ 2 }}
+                src={require("../images/profile.jpg")}
+                style={{ width: 180, height: 180, borderRadius: 200/ 2 }}
 				fluid
               />             
             </figure>			
-			<ul className=" mt-3 list-group menus  intro">
+			<ul className=" mt-4 list-group introbar  ">
                   <li>THANA SHREE JEEVANANDAM</li>
 			</ul>	
-	        <ul className="list-group">
-				<li> <a className="mail a"
+	        <ul className="mt-4 list-group">
+				<li> <a className="mail introbar "
 						  href="mailto:thanashreej@gmail.com"
 						  target="blank"
 						  id="mail"
@@ -25,7 +25,7 @@ function Sidebar({ items }) {
 							<FaEnvelope size={15}/>  thanashreej@gmail.com
 						</a> 
 				</li>
-				<li>    <a className="mail a"
+				<li>    <a className="mail introbar "
 						  href="mailto:thanashr@buffalo.edu"
 						  target="blank"
 						  id="mail"
@@ -36,16 +36,16 @@ function Sidebar({ items }) {
 				</li>
 		
 			</ul>
-			<ul className=" mt-3 list-group menus monospace">
-                  <li><a href="#home" className="menus a" ><span className="glyphicon glyphicon-envelope"></span>Home</a></li>
-                  <li><a href="#education" className="menus a">Education</a></li>
-				  <li ><a href="#experience"className="menus a" >Experience</a></li>
-				  <li ><a href="#projects"className="menus a" >Projects</a></li>				  
-				  <li ><a href="#skills" className="menus a" >Skills</a></li>
-				  <li ><a href="#social" className="menus a">Social</a></li>
+			<ul className=" mt-4 subs mt-3 list-group introbar monospace">
+                  <li><a href="#home" className="subs introbar" ><span className="glyphicon glyphicon-envelope"></span>Home</a></li>
+                  <li><a href="#education" className=" subs introbar">Education</a></li>
+				  <li ><a href="#experience"className="subs introbar" >Experience</a></li>
+				  <li ><a href="#projects"className=" subs introbar" >Projects</a></li>				  
+				  <li ><a href="#skills" className="subs introbar" >Skills</a></li>
+				  <li ><a href="#social" className="subs introbar">Social</a></li>
             </ul>
-			<ul className="list-group mt-4">
-				<li>    <a className="menus a "
+			<ul className="list-group mt-4 ">
+				<li>    <a className="socialIcons  introbar "
 						  href="https://www.linkedin.com/in/thanashree/"
 						  target="_blank"
 						  id="linkedin"
@@ -54,7 +54,7 @@ function Sidebar({ items }) {
 							<FaLinkedin size={20} />
 						</a>
 				</li>
-			    <li>    <a className="menus a"
+			    <li>    <a className="socialIcons introbar "
 						  href="https://github.com/thanashr"
 						  target="blank"
 						  id="github"

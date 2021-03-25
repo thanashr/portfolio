@@ -35,6 +35,38 @@
     background-color:#252827;
   
 }
+@media screen and (max-width: 400px) {
+  .sidebar  {
+	display:none;
+   }
+ 
+   .sideFig{
+   margin-top:40px;
+   }
+  
+   
+  
+  .subs {
+	  display: none;
+	  max-height: 0px;
+} 
+.introbar{
+	
+	color : white;
+	font-family: Lucida Sans;
+	font-weight: 800;
+    letter-spacing: -1px;
+	line-height: 30px;
+}}
+@media screen and (min-width: 400px) {
+	.introbar{
+	color : white;
+	font-family: Lucida Sans;
+	font-weight: 800;
+    letter-spacing: -1px;
+	line-height: 30px;
+}
+}
 .footer {
 	position: fixed;
 	height: 100%;
@@ -50,15 +82,10 @@
   font-family: "Lucida Console", Courier, monospace;
   
 }
-.mail {
-	color:white;
-	font-size: 12px;
-}
 
-.menus {
-	font-weight: 800;
-    letter-spacing: -1px;
-    color :white;
+.mail {
+	font-size: 13px;
+	font-weight: 400;	
 }
 
 .App-link {
