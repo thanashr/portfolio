@@ -6,8 +6,8 @@ function Sidebar({ items }) {
   return (
     <div className="sidebar  text-center">
 	     <figure className="mt-4 sideFig" >
-              <img
-                src={require("../images/profile.jpg")}
+              <img alt="Profile"
+                src={require("../images/profile.JPG")}
                 style={{ width: 180, height: 180, borderRadius: 200/ 2 }}
 				fluid
               />             

@@ -24,7 +24,7 @@ function SocialSection(props) {
 					<Col md = {3} sm={3} >
 						<a href="https://www.uandi.org.in/" className="uandi_link" >
 							<figure className="ml-lg-3 mt-5">
-								<img
+								<img alt="U&I"
 									src={require("../images/uandi.jpeg")}
 									style={{ width: 110, height: 110, borderRadius: 170/ 2}}
 									fluid
@@ -46,7 +46,7 @@ function SocialSection(props) {
 					<Col md = {3} sm={3}>
 						<a href="https://nss.gov.in/" className="nss_link" >
 							<figure className="ml-3 mt-5">
-								<img
+								<img alt="NSS"
 									src={require("../images/nss.png")}
 									style={{ width: 110, height: 110, borderRadius: 110/ 2}}
 									fluid

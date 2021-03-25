@@ -13,7 +13,7 @@ function EducationSection(props) {
 					<Col md = {2} sm={6}>
 						<a href="http://www.buffalo.edu/" className="menus a" >
 						   <figure className="ml-3 mt-4">
-								  <img
+								  <img alt="UB"
 									src={require("../images/ub.png")}
 									style={{ width: 140, height: 120, borderRadius: 150/ 2 }}
 									fluid
@@ -34,7 +34,7 @@ function EducationSection(props) {
 					<Col md = {2} sm={6}>
 						<a href="https://www.amrita.edu/" className="menus a" >
 							<figure className="ml-3 mt-4">
-								  <img
+								  <img alt="Amrita"
 									src={require("../images/amrita.png")}
 									style={{ width: 140, height: 140, borderRadius: 160/ 2 }}
 									fluid

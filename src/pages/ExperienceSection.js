@@ -21,7 +21,7 @@ function ExperienceSection(props) {
 					<Col md = {3} sm={3} className = "exp_img_col">
 						<a href="https://www.accenture.com/in-en/about/company/accenture-innovation-hub-bengaluru" className="menus a" >
 							<figure className="ml-0 mt-2">
-								<img
+								<img alt="Accenture"
 									src={require("../images/accenture_tech.jpg")}
 									style={{ width: 200, height: 130 }}
 									fluid
@@ -65,7 +65,7 @@ function ExperienceSection(props) {
 					<Col md = {3} sm={3}  className = "exp_img_col">
 						<a href="https://www.advanceecomsolutions.com/" className="menus a" >
 							<figure className="ml-0 mt-5">
-								<img
+								<img alt="AES"
 									src={require("../images/aes.png")}
 									style={{ width: 150, height: 70 }}
 									fluid
