@@ -8,9 +8,9 @@ function SkillsSection(props) {
 		<div id="skills" className="mainlayout">
 			<Huge  subTitle={props.subTitle} />
 			<Container fluid= {true}>							
-				<Row className = "text-justify ml-2">
-					<Col md = {7} sm={7} className = "edu_col">
-							<p className = "edu_sub ml-4 mt-4 intro font-weight-LIGHT"><small><u>Programming languages</u></small></p>
+				<Row className = "ml-lg-5 mt-4">
+					<Col  className = "edu_col">
+							<p className = "edu_sub ml-5 mt-4 intro font-weight-LIGHT"><small><b><u>Programming languages</u></b></small></p>
 								<ul className="ml-2 exp_list  ">
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>Python</small> </li>
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>Java</small> </li>
@@ -22,13 +22,13 @@ function SkillsSection(props) {
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>R</small> </li>	
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>SQL</small> </li>										
 								</ul>
-							<p className = "edu_sub ml-4 mt-5  intro font-weight-LIGHT"><small><u>Web technologies</u></small></p>
+							<p className = "edu_sub ml-4 mt-5  intro font-weight-LIGHT"><small><b><u>Web technologies</u></b></small></p>
 								<ul className="ml-2 exp_list  ">
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>ReactJS</small> </li>
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>XML</small> </li>
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>JSON</small> </li>									
 								</ul>
-							<p className = "edu_sub ml-4 mt-5  intro font-weight-LIGHT"><small><u>Software tools/ Libraries</u></small></p>
+							<p className = "edu_sub ml-4 mt-5  intro font-weight-LIGHT"><small><b><u>Software tools/ Libraries</u></b></small></p>
 								<ul className="ml-2 exp_list  ">
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>Android Studio</small> </li>	
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>Google Cloud Platform (GCP)</small> </li>
@@ -51,16 +51,16 @@ function SkillsSection(props) {
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>Google charts</small> </li>
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>Matplotlib</small> </li>										
 								</ul>
-							<p className = "edu_sub ml-4 mt-5  intro font-weight-LIGHT"><small><u>Software Frameworks</u></small></p>
+							<p className = "edu_sub ml-4 mt-5  intro font-weight-LIGHT"><small><b><u>Software Frameworks</u></b></small></p>
 								<ul className="ml-2 exp_list  ">
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>Agile</small> </li>
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>Scrum</small> </li>
 								</ul>
-							<p className = "edu_sub ml-4 mt-5  intro font-weight-LIGHT"><small><u>Version control</u></small></p>
+							<p className = "edu_sub ml-4 mt-5  intro font-weight-LIGHT"><small><b><u>Version control</u></b></small></p>
 								<ul className="ml-2 exp_list  ">
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>GIT</small> </li>																		
 								</ul>
-							<p className = "edu_sub ml-4 mt-5  intro font-weight-LIGHT"><small><u>Operating systems</u></small></p>
+							<p className = "edu_sub ml-4 mt-5  intro font-weight-LIGHT"><small><b><u>Operating systems</u></b></small></p>
 								<ul className="ml-2 exp_list  ">
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>Linux</small> </li>
 									<li className="skill_list ml-lg-5 mt-0  font-weight-LIGHT"><small>Windows</small> </li>	

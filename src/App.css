@@ -27,7 +27,7 @@
 .sidebar {
 	position: fixed;
 	height: 100%;
-    width: 280px;
+    width: 25%;
     z-index: 1;
 	overflow-x: hidden;
 	padding-top: 10px;
@@ -35,7 +35,7 @@
     background-color:#252827;
   
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
   .sidebar  {
 	display:none;
    }
@@ -58,13 +58,14 @@
     letter-spacing: -1px;
 	line-height: 30px;
 }}
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1000px) {
 	.introbar{
 	color : white;
 	font-family: Lucida Sans;
 	font-weight: 800;
     letter-spacing: -1px;
-	line-height: 30px;
+	font-size:125%;
+	line-height: 150%;
 }
 }
 .footer {
