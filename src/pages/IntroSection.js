@@ -7,7 +7,11 @@ function IntroSection(props) {
 	    <div id="introduction" className="introlayout  text-center">
 	     <figure className="sideFig" >
               <img alt="Mobile Profile"
+<<<<<<< HEAD
                 src={require("../images/profile.JPG")}
+=======
+                src={require("../images/profilenobg.png")}
+>>>>>>> cd541d0e78c2f17148474a89ea363bdb4596ca4c
                 style={{ width: 160, height: 160, borderRadius: 200/ 2 }}
 				fluid
               />             

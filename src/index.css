@@ -79,7 +79,11 @@ code {
 	line-height: 130%;
 }
 .edu_sub{
+<<<<<<< HEAD
 	line-height:80%;
+=======
+line-height:80%;
+>>>>>>> cd541d0e78c2f17148474a89ea363bdb4596ca4c
 }
 
 
@@ -148,6 +152,7 @@ code {
 	overflow: hidden;
 	background-color: white;		
 	margin-left: 25%;	
+<<<<<<< HEAD
 	padding-top : 10%;
 }
 
@@ -165,6 +170,9 @@ code {
 	color : white;
 	margin-left:30%;
 	
+=======
+	padding-top : 90px;
+>>>>>>> cd541d0e78c2f17148474a89ea363bdb4596ca4c
 }
 
 .introlayout{
@@ -260,6 +268,10 @@ code {
 	font-size: 23px;
 	line-height:100%;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> cd541d0e78c2f17148474a89ea363bdb4596ca4c
 
 
 .a:hover, .a:focus, .a:active {

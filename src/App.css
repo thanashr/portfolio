@@ -64,7 +64,11 @@
 	font-family: Lucida Sans;
 	font-weight: 400;
     letter-spacing: -1px;
+<<<<<<< HEAD
 	font-size:100%;
+=======
+	font-size:125%;
+>>>>>>> cd541d0e78c2f17148474a89ea363bdb4596ca4c
 	line-height: 150%;
 }
 }

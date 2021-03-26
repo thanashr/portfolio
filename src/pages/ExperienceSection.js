@@ -28,7 +28,11 @@ function ExperienceSection(props) {
 				</Row>
 	
 							
+<<<<<<< HEAD
 				<Row className = "justify text-justify ml-2 mt-4">
+=======
+				<Row className = "justify text-justify ml-2">
+>>>>>>> cd541d0e78c2f17148474a89ea363bdb4596ca4c
 					<Col  className = "edu_col">
 						<a href="https://www.accenture.com/in-en/about/company/accenture-innovation-hub-bengaluru" className="acc_link" >
 						<p className = "edu ml-4 mt-4  intro  font-weight-LIGHT">Accenture<small> - Bangalore, India. (2019)</small></p></a>
