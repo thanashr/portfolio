@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css'; 
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer'; 
-import HomeSection from './pages/HomeSection' ;
+import SmallHomeSection from './pages/SmallHomeSection' ;
+import BigHomeSection from './pages/BigHomeSection' ;
 import IntroSection from './pages/IntroSection.js' ;
 import EducationSection from './pages/EducationSection.js' ;
 import ProjectsSection from './pages/ProjectsSection' ;
@@ -60,7 +61,8 @@ class App extends React.Component {
 	    <React.Fragment> 
 			<Sidebar className="hidden-lg" items={items}/> 
 			<IntroSection subTitle={this.state.intro.title}  />
-			<HomeSection title={this.state.home.title} subTitle={this.state.home.subTitle} text = {this.state.home.text} />
+			<SmallHomeSection title={this.state.home.title} subTitle={this.state.home.subTitle} text = {this.state.home.text} />
+			<BigHomeSection title={this.state.home.title} subTitle={this.state.home.subTitle} text = {this.state.home.text} />
 			<EducationSection subTitle={this.state.education.title}  />
 			<ExperienceSection subTitle={this.state.experience.title}/>
 			<ProjectsSection subTitle={this.state.projects.title}/>		
